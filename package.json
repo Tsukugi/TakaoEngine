@@ -1,0 +1,38 @@
+{
+  "name": "@atsu/takao-engine",
+  "private": true,
+  "version": "1.0.0",
+  "description": "TakaoEngine - A comprehensive game engine monorepo with Atago (units), Choukai (maps), and Takao (main engine)",
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "dev": "npm run dev --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces",
+    "clean": "npm run clean --workspaces",
+    "install-all": "npm install && npm run install --workspaces"
+  },
+  "keywords": [
+    "game-engine",
+    "monorepo",
+    "typescript",
+    "gamedev",
+    "units",
+    "maps",
+    "positioning"
+  ],
+  "author": "TakaoEngine Team",
+  "license": "MIT",
+  "workspaces": [
+    "Atago",
+    "Choukai",
+    "Takao"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/TakaoEngine"
+  },
+  "bugs": {
+    "url": "https://github.com/username/TakaoEngine/issues"
+  },
+  "homepage": "https://github.com/username/TakaoEngine#readme"
+}
