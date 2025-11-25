@@ -1,0 +1,9 @@
+[submodule "Atago"]
+	path = Atago
+	url = https://github.com/Tsukugi/Atago.git
+[submodule "Takao"]
+	path = Takao
+	url = https://github.com/Tsukugi/takao.git
+[submodule "Choukai"]
+	path = Choukai
+	url = https://github.com/Tsukugi/Choukai.git
