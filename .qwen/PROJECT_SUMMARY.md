@@ -1,35 +1,39 @@
 # Project Summary
 
 ## Overall Goal
-Implement a complete map transition system using gates that allows units to move between different maps in the Takao game engine, with proper integration into the StoryTeller and world management systems.
+The user's high-level objective is to establish and maintain the TakaoEngine project, a multi-module TypeScript/JavaScript game engine with Atago, Choukai, and Takao components as git submodules, with proper development workflows and context documentation for AI assistants.
 
 ## Key Knowledge
-- **Technology Stack**: TypeScript-based game engine with three main packages: Atago (unit management), Choukai (world/maps), Takao (storytelling/game engine)
-- **Architecture**: StoryTeller orchestrates narrative generation and map management, with World/Map components from Choukai
-- **Configuration**: Centralized ConfigManager with MapGenerationConfig for controlling map parameters
-- **Build Commands**: `npm run build` (tsup), `npm run test` (vitest), `npm run lint` (eslint), `npx tsc --noEmit` (type checking)
-- **Testing**: Vitest with 113 tests across all packages, all passing
+- Project Name: TakaoEngine
+- Date: Friday, November 28, 2025
+- Architecture: Multi-module project with three submodules:
+  - Atago: handles properties and units
+  - Choukai: handles maps, positions, and world management
+  - Takao: main game engine with AI controllers, game loop, and utilities
+- All three projects are TypeScript/JavaScript projects with ESLint, Prettier, and TypeScript configuration
+- Important Rules:
+  - Do not commit automatically, always ask before trying to commit to git
+  - Don't be lazy, if you find something difficult, search info online about how to resolve it
+  - Avoid using type 'any' or 'unknown' or 'never' as much as possible, search through the types to find a corresponding type
+  - Run test, tsc, build and lint after every finished task to check if everything is working before continuing
 
 ## Recent Actions
-- [COMPLETED] Created comprehensive MapGenerator with configurable terrain generation parameters
-- [COMPLETED] Implemented GateSystem for defining bidirectional map connections
-- [COMPLETED] Integrated gates into StoryTeller with functional transition logic
-- [COMPLETED] Created MapRenderer for visualizing maps with customizable display options
-- [COMPLETED] Enhanced StoryTeller with moveUnitToPosition and handleMapTransition methods
-- [COMPLETED] Developed extensive test suites (7 new tests) validating gate functionality
-- [COMPLETED] Fixed all TypeScript type/lint errors and ensured all 113 tests pass
-- [COMPLETED] Created examples in `Takao/examples/` demonstrating gate and map functionality
+- Created QWEN.md file containing project context information for AI assistants
+- Added .qwen directory with PROJECT_SUMMARY.md for AI assistant context
+- Updated Atago, Choukai, and Takao submodules to latest commits
+- Updated package-lock.json with new dependency versions
+- Successfully committed changes with the commit message: "Update submodules and dependencies, add QWEN context file"
+- The commit included 6 files changed, 3120 insertions(+), 1594 deletions(-)
+- There is still a modification in the Choukai submodule that remains unstaged
 
 ## Current Plan
-- [DONE] Implement gate-based map transition system
-- [DONE] Create bidirectional gate connections between maps
-- [DONE] Integrate gate functionality into StoryTeller core
-- [DONE] Validate transitions with comprehensive test coverage
-- [DONE] Ensure backward compatibility with existing functionality
-- [DONE] Document all new features with examples
-- [COMPLETED] All features implemented, tested, and verified working across all packages
+1. [DONE] Set up monorepo structure with Atago, Choukai, and Takao as git submodules
+2. [DONE] Update submodules and dependencies, add QWEN context file
+3. [TODO] Address the remaining modification in the Choukai submodule
+4. [TODO] Continue maintaining the TakaoEngine project with proper development workflows
+5. [TODO] Follow established conventions for code quality including running tests, type checking, and linting after each task
 
 ---
 
 ## Summary Metadata
-**Update time**: 2025-11-28T21:02:31.881Z 
+**Update time**: 2025-11-28T21:12:34.173Z 
