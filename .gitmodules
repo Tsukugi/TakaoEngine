@@ -7,3 +7,6 @@
 [submodule "Choukai"]
 	path = Choukai
 	url = https://github.com/Tsukugi/Choukai.git
+[submodule "Maya"]
+	path = Maya
+	url = ./Maya
