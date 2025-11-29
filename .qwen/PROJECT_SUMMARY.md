@@ -27,11 +27,13 @@ The user's high-level objective is to establish and maintain the TakaoEngine pro
 - There is still a modification in the Choukai submodule that remains unstaged
 
 ## Current Plan
-1. [DONE] Set up monorepo structure with Atago, Choukai, and Takao as git submodules
-2. [DONE] Update submodules and dependencies, add QWEN context file
-3. [TODO] Address the remaining modification in the Choukai submodule
-4. [TODO] Continue maintaining the TakaoEngine project with proper development workflows
-5. [TODO] Follow established conventions for code quality including running tests, type checking, and linting after each task
+1. [DONE] Implement fixed-area display system using ANSI escape codes
+2. [DONE] Update world serialization to store only terrain information, not unit positions
+3. [DONE] Modify engine initialization to load existing maps if they exist in world.json
+4. [DONE] Remove duplicate unit position tracking in world snapshots
+5. [DONE] Ensure units are managed separately by unit controller system
+6. [DONE] Remove redundant position change logs from console output
+7. [DONE] Verify proper loading and saving of world state between game sessions
 
 ---
 
