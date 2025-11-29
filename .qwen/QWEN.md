@@ -127,7 +127,8 @@ This file contains project-specific context and information for AI assistants wo
     │   ├───MapRenderer.ts
     │   ├───Math.ts
     │   ├───StatTracker.ts
-    │   └───WorldManager.ts
+    │   ├───WorldManager.ts
+    │   └───WorldSnapshotSerializer.ts
     ├───index.ts
     └───TakaoImpl.ts
 ```
