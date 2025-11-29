@@ -125,11 +125,9 @@ This file contains project-specific context and information for AI assistants wo
     │   ├───GateSystem.ts
     │   ├───MapGenerator.ts
     │   ├───MapRenderer.ts
-    │   ├───MapSerializer.ts
     │   ├───Math.ts
     │   ├───StatTracker.ts
-    │   ├───WorldManager.ts
-    │   └───WorldSerializer.ts
+    │   └───WorldManager.ts
     ├───index.ts
     └───TakaoImpl.ts
 ```
