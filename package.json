@@ -25,7 +25,8 @@
   "workspaces": [
     "Atago",
     "Choukai",
-    "Takao"
+    "Takao",
+    "Maya"
   ],
   "repository": {
     "type": "git",
