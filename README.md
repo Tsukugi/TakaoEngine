@@ -32,6 +32,9 @@ Choukai is a map and positioning system that allows units to be placed and manag
 ### Takao - Main Engine Module
 The main engine module that orchestrates the other components and provides the overall game engine functionality.
 
+### Maya - Rendering System
+A modern rendering system built with React and Ink that provides terminal-based visualization for the game engine.
+
 ## Getting Started
 
 ### Prerequisites
