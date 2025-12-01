@@ -20,7 +20,7 @@
     "maps",
     "positioning"
   ],
-  "author": "TakaoEngine Team",
+  "author": "Tsukugi <Tsukugi@proton.me>",
   "license": "MIT",
   "workspaces": [
     "Atago",
@@ -30,12 +30,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/username/TakaoEngine"
+    "url": "https://github.com/Tsukugi/TakaoEngine.git"
   },
   "bugs": {
-    "url": "https://github.com/username/TakaoEngine/issues"
+    "url": "https://github.com/Tsukugi/TakaoEngine/issues"
   },
-  "homepage": "https://github.com/username/TakaoEngine#readme",
+  "homepage": "https://github.com/Tsukugi/TakaoEngine#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.48.0",
     "@typescript-eslint/parser": "^8.48.0"

@@ -1,0 +1,11 @@
+{
+  "playerNames": [
+    "Aria", "Zara", "Kira", "Luna", "Nina", "Sage", "Riley", "Quinn", "Morgan", "Peyton"
+  ],
+  "enemyNames": [
+    "Goblin", "Orc", "Troll", "Dragon", "Giant", "Bandit", "Thief", "Warlock", "Necromancer", "Vampire"
+  ],
+  "npcNames": [
+    "Merchant", "Guard", "Priest", "Scholar", "Blacksmith", "Healer", "Fisher", "Farmer", "Carpenter", "Miner"
+  ]
+}
