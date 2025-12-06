@@ -3,10 +3,10 @@
 	url = https://github.com/Tsukugi/Atago.git
 [submodule "Takao"]
 	path = Takao
-	url = https://github.com/Tsukugi/takao.git
+	url = https://github.com/Tsukugi/Takao.git
 [submodule "Choukai"]
 	path = Choukai
 	url = https://github.com/Tsukugi/Choukai.git
 [submodule "Maya"]
 	path = Maya
-	url = ./Maya
+	url = https://github.com/Tsukugi/Maya.git
