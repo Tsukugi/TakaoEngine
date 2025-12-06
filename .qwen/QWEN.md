@@ -4,7 +4,7 @@ This file contains project-specific context and information for AI assistants wo
 
 ## Project Overview
 - Project Name: TakaoEngine
-- Date: Friday, November 28, 2025
+- Date: Saturday, December 6, 2025
 - Operating System: Linux
 - Project Directory: /mnt/g/dev/TakaoEngine
 
@@ -18,13 +18,13 @@ This file contains project-specific context and information for AI assistants wo
 ├───LICENSE
 ├───package-lock.json
 ├───package.json
-├───QWEN.md
 ├───README.md
 ├───.git/...
 ├───.qwen/
 │   └───PROJECT_SUMMARY.md
 ├───Atago/
 ├───Choukai/
+├───Maya/
 ├───node_modules/...
 └───Takao/
 ```
@@ -37,7 +37,6 @@ This file contains project-specific context and information for AI assistants wo
 ├───.prettierrc
 ├───.qwen/
 ├───.vscode/
-├───examples/
 ├───node_modules/
 ├───package.json
 ├───README.md
@@ -93,8 +92,6 @@ This file contains project-specific context and information for AI assistants wo
 ├───.gitignore
 ├───.prettierrc
 ├───.qwen/
-├───data/
-├───examples/
 ├───eslint.config.js
 ├───node_modules/
 ├───package-lock.json
@@ -133,12 +130,36 @@ This file contains project-specific context and information for AI assistants wo
     └───TakaoImpl.ts
 ```
 
+### Maya Subproject
+```
+/mnt/g/dev/TakaoEngine/Maya/
+├───.gitignore
+├───.qwen/
+├───node_modules/
+├───src/
+│   ├───components/
+│   │   ├───ActionDiary.tsx
+│   │   ├───GameRenderer.tsx
+│   │   └───MapRenderer.tsx
+│   ├───index.tsx
+│   └───types.ts
+├───tests/
+├───package.json
+├───README.md
+├───tsconfig.json
+├───tsup.config.ts
+└───vitest.config.ts
+```
+
+
 ## Notes
-- This is a multi-module project with Atago, Choukai, and Takao components
-- All three projects are TypeScript/JavaScript projects with ESLint, Prettier, and TypeScript configuration
-- Atago appears to handle properties and units
-- Choukai appears to handle maps, positions, and world management
-- Takao appears to be the main game engine with AI controllers, game loop, and various utilities
+- This is a multi-module monorepo project with Atago, Choukai, Takao, and Maya components
+- All projects are TypeScript/JavaScript projects with ESLint, Prettier, and TypeScript configuration
+- Workspaces are defined in the root package.json: Atago, Choukai, Takao, and Maya
+- Atago handles properties and units
+- Choukai handles maps, positions, and world management
+- Takao is the main game engine with AI controllers, game loop, and various utilities
+- Maya is a modern rendering system built with Ink and React for terminal UI, providing efficient rendering for game worlds
 
 ## Important Rules
 - Do not commit automatically, always ask before trying to commit to git.
