@@ -9,7 +9,8 @@
     "test": "npm run test --workspaces",
     "lint": "npm run lint --workspaces",
     "clean": "npm run clean --workspaces",
-    "install-all": "npm install && npm run install --workspaces"
+    "install-all": "npm install && npm run install --workspaces",
+    "start": "npm run start --workspace=Takao"
   },
   "keywords": [
     "game-engine",
