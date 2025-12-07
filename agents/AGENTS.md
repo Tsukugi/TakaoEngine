@@ -19,4 +19,4 @@ Shared notes for AI/automation working on the TakaoEngine monorepo.
 - Avoid commiting or pushing without user permission
 - Always test before finishing a plan
 - Always read agents/PROJECT.md to understand the module/project
-- Commit message must have a title and a description with min 100 words
+- Commit message must have a title and a description with min 50 words, use bullet list of changes format
