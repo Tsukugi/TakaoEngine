@@ -38,7 +38,7 @@ A modern rendering system built with React and Ink that provides terminal-based 
 ## Getting Started
 
 ### Prerequisites
-- Node.js 18+ 
+- Node.js 18+
 - npm package manager
 
 ### Installation
@@ -71,11 +71,13 @@ npm run lint
 cd Atago && npm run build
 cd Choukai && npm run build
 cd Takao && npm run build
+cd Maya && npm run build
 
 # Run tests for individual packages
 cd Atago && npm test
 cd Choukai && npm test
 cd Takao && npm test
+cd Maya && npm test
 ```
 
 ## License
