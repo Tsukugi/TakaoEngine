@@ -23,3 +23,4 @@ Shared notes for AI/automation working on the TakaoEngine monorepo.
 - Avoid commiting or pushing without user permission
 - Commit message must have a title and a description with min 50 words, use bullet list of changes format
 - Avoid using file paths in commit messages
+- In commit title, avoid "feat:" or "chore:"
