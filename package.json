@@ -12,6 +12,9 @@
     "install-all": "npm install && npm run install --workspaces",
     "start": "npm run start --workspace=Takao"
   },
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "keywords": [
     "game-engine",
     "monorepo",

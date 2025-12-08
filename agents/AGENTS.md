@@ -5,6 +5,7 @@ Shared notes for AI/automation working on the TakaoEngine monorepo.
 ## Workspaces
 - Root scripts: `npm test|lint|build --workspaces`
 - Projects: Atago (units), Choukai (maps), Takao (engine), Maya (renderer)
+- READ the project README.md to understand it 
 
 ## Common commands
 - Tests: `npm test` (root) or `npm test --workspace=<name>`
@@ -24,3 +25,4 @@ Shared notes for AI/automation working on the TakaoEngine monorepo.
 - Commit message must have a title and a description with min 50 words, use bullet list of changes format
 - Avoid using file paths in commit messages
 - In commit title, avoid "feat:" or "chore:"
+- NEVER write coauthored information in the commit message
