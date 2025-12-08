@@ -16,7 +16,10 @@ Shared notes for AI/automation working on the TakaoEngine monorepo.
 - Keep dependencies scoped to the right workspace; use devDependencies for tooling.
 - Prefer `vitest` for tests; coverage uses `@vitest/coverage-v8`.
 - Avoid removing user changes; never reset the repo without explicit instruction.
-- Avoid commiting or pushing without user permission
 - Always test before finishing a plan
 - Always read agents/PROJECT.md to understand the module/project
+
+## Git
+- Avoid commiting or pushing without user permission
 - Commit message must have a title and a description with min 50 words, use bullet list of changes format
+- Avoid using file paths in commit messages
