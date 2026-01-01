@@ -75,7 +75,6 @@ Choukai/dist
 Takao/dist
 
 # Editor-specific files
-.vscode/
 .idea/
 *.swp
 *.swo
