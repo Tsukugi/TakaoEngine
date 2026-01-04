@@ -10,3 +10,7 @@
 [submodule "Maya"]
 	path = Maya
 	url = https://github.com/Tsukugi/Maya.git
+[submodule "Noshiro"]
+	path = Noshiro
+	url = git@github.com:Tsukugi/Noshiro.git
+	branch = main
